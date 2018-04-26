@@ -1,0 +1,16 @@
+# Site settings
+title: Ashok Portfolio
+description: Site about Ashok
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://tanka.la
+
+# User settings
+username: Ashok Tankala
+user_description: Around 11 years of experience in <b>analysis, design, development, testing, deployment</b> and <b>implementation</b> of <b>web-based applications</b> using <b>Java, Node.js, Cassandra, MongoDB, Kafka, MySql, JSON & XML</b> technologies and <b>managed <u>GirnarSoft Pvt LTD</u></b> Hyderabad branch over 6 years.
+user_title: Deputy Director at CarDekho(GirnarSoft)
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
