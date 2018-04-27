@@ -1,9 +1,8 @@
 /* sweetScroll load */
 document.addEventListener("DOMContentLoaded", function () {
-  const sweetScroll = new SweetScroll({/* some options */});
+  const sweetScroll = new SweetScroll({/* some options */ });
 
-  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS('particles-js', {
+  particlesJS("particles-js", {
     "particles": {
       "number": {
         "value": 80,
@@ -70,13 +69,13 @@ document.addEventListener("DOMContentLoaded", function () {
           "rotateX": 600,
           "rotateY": 1200
         }
-      },
+      }
     },
     "interactivity": {
-      "detect_on": "window",
+      "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "grab"
         },
         "onclick": {
@@ -113,5 +112,4 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     "retina_detect": true
   });
-
-}, false);
+});
