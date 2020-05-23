@@ -1,1 +1,3 @@
-Ashok's Site
+# Ashok Tankala's Portifolio Site
+
+Built using Nuxt and Vuetify
